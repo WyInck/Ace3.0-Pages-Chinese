@@ -53,7 +53,7 @@ Core.lua
 
 ### 创建插件对象
 
-在确保您已经正确地引用了AceAddon-3.0库以及LibStub后（参见上文），插件的主Lua文件（例如Core.lua）可以创建一个Ace3插实例，如下所示：
+在确保您已经正确地引用了AceAddon-3.0库以及LibStub后（参见上文），插件的主Lua文件（例如Core.lua）可以创建一个Ace3插件实例，如下所示：
 
 ```lua
 MyAddon = LibStub("AceAddon-3.0"):NewAddon("MyAddon")
@@ -135,7 +135,7 @@ function MyAddon:MySlashProcessorFunc(input)
 end
 ```
 
-但是，在许多情况下，利用AceConfig自动生成斜杠命令可能比手工编写更简单。继续阅读有关如何使用AceConfig配置插件选项。
+但是，在许多情况下，利用AceConsole自动生成斜杠命令可能比手工编写更简单。继续阅读有关如何使用AceConfig配置插件选项。
 
 ## 使用AceConfig-3.0
 
